@@ -1,0 +1,20 @@
+[project]
+name = "scam-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "assemblyai>=0.49.0",
+    "ctranslate2==4.6.3",
+    "faster-whisper>=1.2.1",
+    "nltk>=3.9.2",
+    "numpy>=2.4.1",
+    "pandas>=2.3.3",
+    "pillow>=12.1.0",
+    "pyaudio>=0.2.14",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "streamlit>=1.53.1",
+    "websockets>=16.0",
+]
